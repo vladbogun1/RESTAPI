@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="APIProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/APIProject_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="APIProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="APIProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="apache-tomcat-9.0.27" />
+          <element id="library" level="project" name="log4j-1.2.17" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.17" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="avatar-generator-1.1.0" />
+          <element id="library" level="application" name="gson-2.8.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
